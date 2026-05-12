@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(){
+
+      // variaveis
+    float peso = 0;
+    float alt = 0;
+
+     printf("Qual o seu peso?");
+     scanf("%f", &peso);
+
+     printf("Qual a sua altura?");
+     scanf("%f", &alt);
+
+     // processamento
+     float total_imc = peso / (alt * alt);
+
+     //saída
+     printf("o seu imc e %f", total_imc);
+
+    return 0;
+}
+
+    
+
